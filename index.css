@@ -1,0 +1,129 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+} */
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+#employeeList {
+    margin-top: 20px;
+}
+
+/* .employee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+} */
+
+.employee-wrapper {
+    display: flex;
+    justify-content: space-between; /* Ensures even spacing */
+    align-items: center; /* Aligns items properly */
+    padding: 15px;
+    margin-bottom: 10px;
+
+}
+
+
+.deleteButton {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.deleteButton:hover {
+    background-color: lightgray;
+}
+
+
+
+.deleteButton:hover {
+    background-color: lightgray;
+}
+
+#message {
+    text-align: center;
+    font-size: 16px;
+}
+/* .employee-details {
+    font-weight: bold;
+    color: lightblue;
+    font-size: 16px;
+    padding: 5px;
+    width:100%;
+    margin-right: 15px;
+}*/
+
+
+.employee-details {
+    display: flex;
+    justify-content: space-between;
+      padding: 20px;
+    width: 100%; /* Ensures full width for spacing */
+    height: 20px;
+    gap: 20px; /* Adds uniform spacing */
+    border: 1px solid white;
+    border-radius: 40px;
+} 
+
+input {
+    background-color: black; /* Sets input background to black */
+    color: white; /* Sets input text color to white */
+    padding: 10px;
+    border: 1px solid white; /* Optional: Adds a white border for visibility */
+    outline: none; /* Removes default outline */
+}
+
+input::placeholder {
+    color: lightgray; /* Changes placeholder text color for better visibility */
+}
+input:focus {
+    background-color: black; /* Ensures background stays black */
+    color: white; /* Ensures text stays white */
+} 
